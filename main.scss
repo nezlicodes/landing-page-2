@@ -7,11 +7,18 @@ html {
 }
 
 .carousel-item {
-    height: 100vh;
+    height: 65vh;
     min-height: 350px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    max-width: 100%;
 }
