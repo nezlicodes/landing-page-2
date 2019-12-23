@@ -22,3 +22,11 @@ html {
     z-index: 10;
     max-width: 100%;
 }
+
+@media screen and (max-width: 750px) {
+    .carousel-item {}
+}
+
+#contact {
+    background-color: rgb(218, 177, 177);
+}
